@@ -1,0 +1,61 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+section {
+  height: 50px;
+  overflow: hidden;
+}
+.rainbow {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.rainbow > div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+}
+.rainbow :nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.rainbow :nth-child(2) {
+  width: 90px;
+  height: 90px;
+  background-color: orange;
+}
+.rainbow :nth-child(3) {
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+}
+.rainbow :nth-child(4) {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+}
+.rainbow :nth-child(5) {
+  width: 60px;
+  height: 60px;
+  background-color: cyan;
+}
+.rainbow :nth-child(6) {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+.rainbow :nth-child(7) {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+}
+.rainbow :nth-child(8) {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
